@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <h1 id="title">Survey Form</h1>
+<p id="description">Please, take your time and help us by filling this survey form</p>
+</head>
+<body>
+  <fieldset>
+  <form id="survey-form">
+    <label id>Name: <input type="text" name="first-name" placeholder="Enter Your First Name" required /></label>
+    
+  
+  
+  
+  
+  
+ </fieldset> 
+  </form>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+CSS
+
+
+#title {
+  text-align: center;
+  font-family: Times, Tahoma;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 35px;
+  padding: 1em;
+}
+
+#description {
+  text-align: center;
+  font-family: Times, Tahoma;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  color: white;
+  background-image: url("https://www.maketecheasier.com/assets/uploads/2021/06/laptop-keyboard-not-working-hero.jpg");
+  background-repeat: no-repeat;   background-size: auto;
+  }
+
+input {
+  width: 300px;
+  margin: 10px 0 0 0;
+}
